@@ -1,9 +1,169 @@
-<html>
- 
-<body>
-  <h1>Jared Hunter</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>Jared Hunter</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        
+        <!-- Boostrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Inter&family=Roboto+Mono&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <!-- style sheet -->
+        <link href="./styles.css" rel="stylesheet">
+
+        <!-- JS script -->
+        <script src="main.js"></script>
+
+    </head>
+
+
+    <!-- BODY BODY BODY -->
+    <body class="container-fluid">
+        <div class="text-center" style="background-color: yellow;">
+            *** under construction ***
+        </div>
+        
+        <div class="container-md"> 
+
+            <!-- Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+            <header>
+
+                <h1 class="name">Jared Hunter</h1>
+
+                <!-- NAV -->
+                <nav>
+                    <h2><span class="nav-item" id="nav-composer">Composer</span> // <span class="nav-item" id="nav-technologist">Technologist</span> // <span class="nav-item" id="nav-climate">Climate Advocate</span></h2>
+                </nav>
+
+            </header>
+
+            <!-- MAIN -->
+            <main>
+
+                <!-- Music Section -->
+                <section id="music">
+                    
+                    <!-- Sub-Nav bar -->
+                    <nav class="subnav" id="music-subnav">
+                        <ul>
+                            <li  class="music-subnav-items subnav-li">Info</li>
+                            <li  class="music-subnav-items subnav-li">Work</li>
+                            <li  class="music-subnav-items subnav-li">More</li>
+                        </ul>
+                    </nav>
+
+                    <!-- Right Side Content Holder -->
+
+                    <div class="content-holder">
+                        <article id="music-info">
+                            <p>Jared Hunter is a composer of music for things.</p>
+                        </article>
+
+        
+                        <!-- <audio controls>
+                            <source src="audio/Change Vector.m4a">
+                        </audio> -->
+        
+                        <article id="music-latest">
+                            <h3>Latest Work</h3>
+                            
+                            <div class="vid-holder">
+                                <video src="video/EBAY.mp4" controls height="200px">Video not supported</video>
+                            </div>
+                        </article>
+                    </div>
+
+
+                </section>
+
+
+                <!-- Technology Section -->
+                <section id="technology">
+
+                    <!-- Sub-Nav bar -->
+                    <nav class="subnav" id="tech-subnav">
+                        <ul>
+                            <li  class="tech-subnav-items subnav-li">Info</li>
+                            <li  class="tech-subnav-items subnav-li">Skills</li>
+                            <li  class="tech-subnav-items subnav-li">Credentials</li>
+                            <li  class="tech-subnav-items subnav-li">Projects</li>
+                        </ul>
+                    </nav>
+
+                    <article>
+                        <p>I'm learning the computers</p>
+                    </article>
+
+                    <article id="skills">
+                        <ul>
+                            <li class="tech-skill">Python</li>
+                            <li class="tech-skill">R</li>
+                            <li class="tech-skill">HTML</li>
+                            <li class="tech-skill">CSS</li>
+                            <li class="tech-skill">JavaScript</li>
+                            <li class="tech-skill">SQL</li>
+                            <li class="tech-skill">Git</li>
+                        </ul>
+                    </article>
+
+                </section>
+
+
+                <!-- Advocacy Section -->
+                <section id="climate">
+
+                    <!-- Sub-Nav bar -->
+                    <nav class="subnav" id="climate-subnav">
+                        <ul>
+                            <li  class="climate-subnav-items subnav-li">Info</li>
+                            <li  class="climate-subnav-items subnav-li">Work</li>
+                            <li  class="climate-subnav-items subnav-li">Resources</li>
+                        </ul>
+                    </nav>
+
+                    <article>
+                        <p>As a member of the <a href="https://openaircollective.cc" target="blank">OpenAir Collective</a>, a distributed volunteer network
+                            dedicated to the promotion of solutions to the climate change crisis, I have helped to produce a webinar series called <a href="https://openaircollective.cc/this-is-cdr" target="blank">This Is CDR</a>
+                            about Carbon Dioxide Reduction (CDR) pathways.
+                        </p>
+                    </article>
+
+                </section>
+
+            </main>
+
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span>&copy; 2021 Jared Hunter</span>
+                </div>
+
+                <div>
+                    <nav class="contact">contact</nav>
+                </div>
+            
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a href="https://www.facebook.com/jared.hunter.35/"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a href="https://www.linkedin.com/in/jaredhunter-nyc/"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="ms-3"><a href="https://github.com/brooklynjared"><i class="bi bi-github"></i></a></li>
+                </ul>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+
 </html>

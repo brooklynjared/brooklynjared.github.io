@@ -1,0 +1,114 @@
+/* * {
+    border: 1px solid red;
+} */
+
+/* *:hover {
+    border-bottom: 2px solid red;
+} */
+
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+    box-sizing: border-box !important;
+    
+}
+
+header {
+    margin-top: 20px;
+}
+
+.nav-item {
+    cursor: crosshair;
+}
+
+h1 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    /* font-family: 'DM Mono', monospace; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+    cursor: crosshair;
+}
+
+#nav-composer:hover {
+    border-bottom: 4px solid rgb(47, 231, 255);
+}
+
+#nav-technologist:hover {
+    border-bottom: 4px solid yellow;
+}
+
+#nav-climate:hover {
+    border-bottom: 4px solid greenyellow;
+}
+
+main {
+    border-left: 1px solid;
+    min-height: 500px;
+    /* padding-left: 10px; */
+    margin-top: 20px;
+}
+
+.subnav {
+    background-color: black;
+}
+
+.subnav-li {
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.subnav-li:hover {
+    color: white;
+    cursor: crosshair;
+}
+
+.music-subnav-items {
+    color:rgb(47, 231, 255);
+}
+
+.tech-subnav-items {
+    color: yellow;
+}
+
+.climate-subnav-items {
+    color: greenyellow;
+
+}
+
+article {
+    margin-left: 10px;
+}
+
+/* #music-info {
+    border: 1px solid red !important;
+}
+
+#music-latest {
+    border: 1px solid red !important;
+} */
+
+.vid-holder {
+
+    height:fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+video {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer {
+    font-size: small;
+} */
